@@ -1,0 +1,11 @@
+{"node":[{"type":"circle","variables":["cx","cy"],"persisted":true},{"type":"line","variables":["x1","y1","x2","y2"],"persisted":false},{"type":"line","variables":["cx","cy","x1","y1"],"persisted":false},{"type":"line","variables":["cx","cy","x2","y2"],"persisted":false}],
+"eventList":[
+  {"type":"source","id":1736,"variables":{"cx":"","cy":"","x1":"","x2":"","y1":"","y2":""}},
+  {"type":"destination","id":4419,"variables":{"cx":"","cy":"","x1":"","x2":"","y1":"","y2":""}},
+  {"type":"generating","id":1736,"g":0,"f":0.000300711,"pId":null,"variables":{"cx":"","cy":"","x1":"","x2":"","y1":"","y2":""}},
+  {"type":"expanding","id":1736,"x":8,"y":15,"g":0,"f":0.000300711,"pId":null,"variables":{"cx":"","cy":"","x1":"","x2":"","y1":"","y2":""}},
+  {"type":"generating","id":1640,"x":8,"y":14,"g":1e-05,"f":0.000320711,"pId":1736,"variables":{"cx":"","cy":"","x1":"","x2":"","y1":"","y2":""}},
+  {"type":"generating","id":1737,"x":9,"y":15,"g":1e-05,"f":0.000314853,"pId":1736,"variables":{"cx":"","cy":"","x1":"","x2":"","y1":"","y2":""}},
+  {"type":"closing","id":1736,"x":8,"y":15,"g":0,"f":0.000300711,"pId":null,"variables":{"cx":"","cy":"","x1":"","x2":"","y1":"","y2":""}},
+  {"type":"end","id":4419,"x":3,"y":43,"g":0.000586569,"f":0.000586569,"pId":4420,"variables":{"cx":"","cy":"","x1":"","x2":"","y1":"","y2":""}}
+]}
