@@ -22,6 +22,8 @@
 
 #include <climits>
 #include <stdint.h>
+#include <cassert>
+#include <cstring>
 
 namespace warthog
 {
