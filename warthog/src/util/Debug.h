@@ -44,13 +44,16 @@ public:
     void startSearch(uint32_t start,uint32_t end)
 	{
 		if(eventCount != 0)
+		{
 			saveData <<", \n";
-			int32_t x,y;
-			expander_-> get_xy(start,x,y);
+		}
 
-			saveData << "{\"type\":\"source\","
-					 << "\"id\":" << start << ",\"variables\":{\"x\":" << x << ",\"y\":" << y << "}"
-					 << "},\n";
+		int32_t x,y;
+		expander_-> get_xy(start,x,y);
+
+		saveData << "{\"type\":\"source\","
+					<< "\"id\":" << start << ",\"variables\":{\"x\":" << x << ",\"y\":" << y << "}"
+					<< "},\n";
 
 	  	expander_-> get_xy(end,x,y);
 
@@ -67,11 +70,12 @@ public:
 	void endSearch(uint32_t end)
 	{
 		if(eventCount != 0)
+		{
 			saveData<<",\n";
-
-			saveData << "{\"type\":\"end\","
-					 << "\"id\":" << end << ",\"variables\":{\"x\":" << end_x << ",\"y\":" << end_y << "}"
-					 << "}";
+		}
+		saveData << "{\"type\":\"end\","
+					<< "\"id\":" << end << ",\"variables\":{\"x\":" << end_x << ",\"y\":" << end_y << "}"
+					<< "}";
 	}
 	uint32_t realId(uint32_t paddedId)
 	{
